@@ -340,9 +340,9 @@ var ellipticArcToCubicBezierCurves;
     if (!flagS)
       delta -= 2 * Math.PI;
 
-    r_ = [rX,rY];
-    c = [cx,cy];
-    angles = [theta, delta];
+    r_ = [rX, rY];
+    let c = [cx, cy];
+    let angles = [theta, delta];
 
     return [r_, c, angles];
   }
